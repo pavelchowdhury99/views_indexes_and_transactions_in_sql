@@ -15,8 +15,14 @@ Views are virtual tablse based on the result-set of SQL statements.
 ;
 </pre>
 
-### Use cases
+### When to use SQL views
 1. Easy creation of alias and using them
-2. Store calculation logics
-3. Migrate from one table to another
-4. 
+2. Store calculation logics and add abstractions.
+3. To improve securities - limit data access of a table.
+4. Migrate from one table to another
+
+### When not to use SQL views
+1. Run time of query needs to be less.
+2. When you are planning to create multiple tables / views on top of it.
+
+## Indexes
