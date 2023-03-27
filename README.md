@@ -23,6 +23,7 @@ Views are virtual tablse based on the result-set of SQL statements.
 
 ### When not to use SQL views
 1. Run time of query needs to be less.
-2. When you are planning to create multiple tables / views on top of it.
+2. When column names of the views are not finalized.
+3. When you are planning to create multiple views on top of it and this view might change often.
 
 ## Indexes
