@@ -52,3 +52,23 @@ create index index_name
 
 
 ## Transactions
+A SQL transaction is a grouping of one or more SQL statements that interact with a database and maintains database integrities (ACID Properties) before and after it has interacted with the database.
+
+### Syntax
+<pre>
+
+BEGIN;
+
+SQL Statements
+   
+SAVEPOINT savepoint_name;
+
+SQL Statements
+
+ROLLBACK TO savepoint_name;
+
+SQL Statements
+
+COMMIT;
+</pre>
+
