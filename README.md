@@ -34,3 +34,21 @@ They are lookup table which enhances the SQL engine's performance in data retrie
 create index index_name
  on table (col_1, col_2,.....); 
 </pre>
+
+### When to use
+1. Dataset is really big.
+2. Very often filter based on few columns with a high number of classes.
+3. Often joined with other tables on few columns.
+4. When you are using replica of production tables.
+5. Storage cost is not an issue.
+6. Columns do not update very frequently.
+
+### When not to use
+1. When you are using the table for production writes.
+2. Tables is going to be of minimal rows.
+3. When increasing the storage would be costly.
+4. Columns switch classes very frequently.
+5. Not planning to use where clause or aggregations.
+
+
+## Transactions
