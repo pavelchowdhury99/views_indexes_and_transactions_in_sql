@@ -27,3 +27,10 @@ Views are virtual tablse based on the result-set of SQL statements.
 3. When you are planning to create multiple views on top of it and this view might change often.
 
 ## Indexes
+They are lookup table which enhances the SQL engine's performance in data retrieval.
+
+### Syntax
+<pre>
+create index index_name
+ on table (col_1, col_2,.....); 
+</pre>
