@@ -1,7 +1,7 @@
 # Views, Indexes and Transactions in SQL
 
 ## Views
-Views are virtual tablse based on the result-set of SQL statements.
+Views are virtual tables based on the result-set of SQL statements.
 
 ### Syntax
 <pre>create of replace view schema_name.view_name as
